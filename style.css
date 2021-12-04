@@ -1,0 +1,141 @@
+/*fuentes*/
+@import url('https://fonts.googleapis.com/css2?&family=Poppins:wght@200;400;600&display=swap');
+
+
+/* variables */
+
+:root{
+    --red: hsl(0, 78%, 62%);
+    --cyan: hsl(180, 62%, 55%);
+    --orange: hsl(34, 97%, 64%);
+    --blue: hsl(212, 86%, 64%);
+
+    --very-dark-blue: hsl(234, 12%, 34%);
+    --grayish-blue: hsl(229, 6%, 66%);
+    --very-light-gray: hsl(0, 0%, 98%);
+
+}
+
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    font-size: 15px;
+    height: auto;
+    padding-bottom:75px;
+
+}
+
+h1 {
+    text-align: center;
+    color: var(--very-dark-blue);
+    margin-top:90px; 
+    font-weight:200;
+    font-size:1.6em;
+    margin-bottom:30px;
+}
+
+h1 span {
+    font-weight: 600;
+}
+
+p {
+    text-align:center;
+    line-height:23px;
+    color: var(--grayish-blue);
+    padding: 0 30px;
+    margin-bottom: 75px;
+    font-family: 'Poppins', sans-serif; 
+    
+
+}
+
+div{
+
+    margin: 0 auto;
+    width: 300px;
+    height: 215px;
+    margin-bottom:20px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px var(--grayish-blue);
+}
+
+div h2 {
+    font-size: 1.3em;
+    padding:20px 0 5px 27px;   
+    color: var(--very-dark-blue);
+
+}
+
+#celeste {
+    border-top: var(--cyan) 5px solid;
+}
+
+#rojo { 
+    border-top: var(--red) 5px solid;
+}
+
+#naranja {
+  border-top: var(--orange) 5px solid;  
+}
+
+#azul {
+    border-top: var(--blue) 5px solid;
+}
+
+div p {
+    font-size:13px;
+    text-align: left;
+    margin-bottom: 0;
+    
+}
+
+img {
+    width:55px;
+    height:55px;
+    position: relative;
+    left:210px;
+    top:30px;
+}
+
+@media (min-width: 1000px){
+
+    p {
+        padding:0 360px;
+
+    }
+
+    div p {
+
+        padding: 0 30px;
+    }
+
+   #celeste,#rojo,#naranja,#azul {
+    position: relative;
+    }
+
+    #celeste {
+        left: -320px;
+        bottom: -100px;
+
+
+    }
+
+    #rojo,#naranja {
+        top: -235px;
+
+    }
+
+    #azul{
+
+        bottom: 600px;
+        right:-320px;
+
+
+    }
+}
