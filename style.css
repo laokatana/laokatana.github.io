@@ -105,6 +105,8 @@ img {
 
 @media (min-width: 1000px){
 
+    
+    
     p {
         padding:0 360px;
 
@@ -137,5 +139,10 @@ img {
         right:-320px;
 
 
+    }
+    
+    body {
+        padding-bottom:0;
+    
     }
 }
